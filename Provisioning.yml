@@ -72,7 +72,7 @@
       key_name: "{{ ec2_key_name }}"
       instance_type: "{{ instance_type }}"
       image: "{{ instance_image }}"
-      wait: np
+      wait: no
       group: allow-tcp
       count: 1
       region: "{{ aws_region }}"
