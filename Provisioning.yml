@@ -32,7 +32,7 @@
         Name: webserver Subnet
     register: result_subnet
     
-  -name: Create igw
+  - name: Create igw
     ec2_vpc_igw:
       region: "{{ aws_region }}"
       vpc_id: "{{ result_vpc.vpc.id }}"
