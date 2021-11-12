@@ -1,6 +1,6 @@
 ---
 - name: simple-provisionig
-  host: localhost
+  hosts: localhost
   connection: localhost
   gather_facts: false
   vars:
